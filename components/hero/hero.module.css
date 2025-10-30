@@ -1,0 +1,49 @@
+.hero {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-content: space-between;
+  width: 100%;
+  min-height: 600px;
+}
+
+@media (min-width: 769px) {
+  .hero {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 600px;
+  }
+}
+
+.logo-main {
+  margin-top: 50%;
+  width: auto;
+  height: 96px;
+}
+
+@media (min-width: 769px) {
+  .logo-main {
+    margin: 0;
+    width: auto;
+    height: 160px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+}
+
+.pic-main {
+  width: auto;
+  height: 250px;
+}
+
+@media (min-width: 769px) {
+  .pic-main {
+    width: auto;
+    height: 335px;
+    grid-column: 2;
+    grid-row: 2;
+  }
+}

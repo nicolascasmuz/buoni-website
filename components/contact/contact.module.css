@@ -1,0 +1,102 @@
+.section-3 {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: space-between;
+  width: 100%;
+  min-height: 600px;
+  padding: 65px 25px;
+  color: var(--black);
+  font-family: "Roboto Regular", cursive;
+}
+
+@media (min-width: 769px) {
+  .section-3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 55px;
+  }
+}
+
+.title-section-3 {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 769px) {
+  .title-section-3 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  width: 300px;
+}
+
+@media (min-width: 769px) {
+  .form-wrapper {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+
+.name-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name-input {
+  background-color: var(--background);
+  border: solid;
+  border-color: gray;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.email-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.email-input {
+  background-color: var(--background);
+  border: solid;
+  border-color: gray;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.message-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.message-textarea {
+  background-color: var(--background);
+  border: solid;
+  border-color: gray;
+  border-radius: 5px;
+  height: 120px;
+}
+
+.button-enviar {
+  background-color: var(--red);
+  color: var(--background);
+  font-family: "Roboto Regular", cursive;
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 10px;
+}
