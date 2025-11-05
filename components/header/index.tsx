@@ -6,13 +6,15 @@ import menuPic from "../../resources/menu.svg";
 export default function Header() {
   return (
     <div className={styles["header"]}>
-      <Image
-        src={logoBuoni}
-        alt="logo-header"
-        className={styles["logo-header"]}
-        width={50}
-        height={50}
-      />
+      <a href="/">
+        <Image
+          src={logoBuoni}
+          alt="logo-header"
+          className={styles["logo-header"]}
+          width={50}
+          height={50}
+        />
+      </a>
       <Image
         src={menuPic}
         alt="menu"
@@ -21,9 +23,15 @@ export default function Header() {
         height={50}
       />
       <nav className={styles["options-wrapper"]}>
-        <h3 className={styles["options-header"]}>Quienes somos</h3>
-        <h3 className={styles["options-header"]}>Nuestros productos</h3>
-        <h3 className={styles["options-header"]}>Contacto</h3>
+        <a className={styles["options-header"]} href="/about-us">
+          Quienes somos
+        </a>
+        <a className={styles["options-header"]} href="/products">
+          Nuestros productos
+        </a>
+        <a className={styles["options-header"]} href="/contact">
+          Contacto
+        </a>
       </nav>
     </div>
   );

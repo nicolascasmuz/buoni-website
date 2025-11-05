@@ -24,6 +24,11 @@
 
 .logo-header {
   height: 50px;
+  transition: all 0.25s;
+}
+
+.logo-header:hover {
+  opacity: 50%;
 }
 
 @media (min-width: 769px) {
@@ -59,6 +64,10 @@
 .options-header {
   transition: all 0.25s;
   cursor: pointer;
+  font-family: "Roboto Regular", "sans-serif";
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--black);
 }
 
 .options-header:hover {
