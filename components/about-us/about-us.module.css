@@ -35,8 +35,7 @@
 
 .title-section-1 {
   margin: 0;
-  font-family: "Minion Pro", "Times New Roman";
-  font-weight: bold;
+  font-family: "Minion Pro Bold", "Times New Roman";
   font-size: 32px;
 }
 
@@ -49,7 +48,7 @@
 
 .paragraph-section-1 {
   margin: 0;
-  font-family: "Minion Pro", "Times New Roman";
+  font-family: "Minion Pro Regular", "Times New Roman";
   font-size: 16px;
   width: 350px;
 }

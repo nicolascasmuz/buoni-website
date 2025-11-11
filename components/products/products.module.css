@@ -4,7 +4,6 @@
   align-content: space-between;
   gap: 50px;
   background-color: #141414;
-  font-family: "Minion Pro", "Times New Roman";
   width: 100%;
   height: auto;
   padding: 65px 35px;
@@ -22,8 +21,9 @@
   display: grid;
   justify-items: center;
   align-content: space-between;
-  color: #fafafa;
+  font-family: "Minion Pro Bold", "Times New Roman";
   font-size: 32px;
+  color: #fafafa;
   margin: 0px;
 }
 
@@ -95,11 +95,13 @@
 }
 
 .title-product {
+  font-family: "Minion Pro Bold", "Times New Roman";
   color: #fafafa;
   margin: 12px 0px;
 }
 
 .paragraph-product {
+  font-family: "Minion Pro Regular", "Times New Roman";
   color: #fafafa;
   text-align: center;
   margin: 0px;
