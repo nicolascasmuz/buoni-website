@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./hero.module.css";
-import logoBuoniConTitulos from "../../resources/logo-buoni-con-titulos.svg";
-import imagenMain from "../../resources/imagen-main.svg";
+import logoBuoniConTitulos from "../../resources/logo-buoni-con-titulos.png";
+import imagenMain from "../../resources/imagen-main.png";
 import fondoMain from "../../resources/fondo-main.png";
 
 export default function Hero() {

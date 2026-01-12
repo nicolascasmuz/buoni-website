@@ -40,8 +40,9 @@
 
 @media (min-width: 769px) {
   .about-us__pic {
-    width: auto;
+    width: fit-content;
     height: 200px;
+    align-self: center;
   }
 }
 

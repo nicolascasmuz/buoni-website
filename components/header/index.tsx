@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./header.module.css";
-import logoBuoni from "../../resources/logo-buoni.svg";
-import menuPic from "../../resources/menu.svg";
+import logoBuoni from "../../resources/logo-buoni.png";
+import menuPic from "../../resources/menu.png";
 
 export default function Header() {
   return (

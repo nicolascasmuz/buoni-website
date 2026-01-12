@@ -1,6 +1,6 @@
 import styles from "./about-us.module.css";
 import Image from "next/image";
-import succulentsDrawing from "../../resources/succulents drawing_02.svg";
+import succulentsDrawing from "../../resources/succulents drawing_02.png";
 import fondoSection1 from "../../resources/fondo-section-1.png";
 
 export default function AboutUs() {
