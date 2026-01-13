@@ -1,4 +1,4 @@
-const BASE_URL = "https://vercel.com/nicolascasmuzs-projects/buoni-backend/api";
+const BASE_URL = "https://buoni-backend.vercel.app/api";
 // const BASE_URL = "http://localhost:3001/api";
 
 export async function fetchAPI(input?: RequestInfo, options?) {
