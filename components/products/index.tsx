@@ -1,9 +1,9 @@
 import styles from "./products.module.css";
 import Image from "next/image";
-import product1 from "../../resources/product-1.png";
-import product2 from "../../resources/product-2.png";
-import product3 from "../../resources/product-3.png";
-import product4 from "../../resources/product-4.png";
+import product1 from "../../resources/product-1.webp";
+import product2 from "../../resources/product-2.webp";
+import product3 from "../../resources/product-3.webp";
+import product4 from "../../resources/product-4.webp";
 
 export default function Products() {
   return (

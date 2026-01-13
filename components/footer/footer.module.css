@@ -54,11 +54,12 @@
 
 .socialmedia-logo {
   height: 30px;
+  width: auto;
 }
 
 @media (min-width: 769px) {
   .socialmedia-logo {
-    width: 40px;
-    height: auto;
+    height: 40px;
+    width: auto;
   }
 }

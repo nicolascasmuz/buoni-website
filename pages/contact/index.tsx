@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Layout from "components/layout";
 import styles from "./contact.module.css";
-import fondoSection1 from "../../resources/fondo-section-1.png";
+import fondoSection1 from "../../resources/fondo-section-1.webp";
 import buoniMap from "../../resources/buoni-map.webp";
-import facebook from "../../resources/facebook.svg";
-import instagram from "../../resources/instagram.svg";
-import whatsapp from "../../resources/whatsapp.svg";
+import facebook from "../../resources/facebook.webp";
+import instagram from "../../resources/instagram.webp";
+import whatsapp from "../../resources/whatsapp.webp";
 
 export default function ContactPage() {
   return (

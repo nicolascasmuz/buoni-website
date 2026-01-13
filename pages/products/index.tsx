@@ -2,11 +2,11 @@ import Image from "next/image";
 import styles from "./products.module.css";
 import { CategoryComp } from "../../components/category";
 import Layout from "components/layout";
-import cactus from "resources/product-1.png";
-import macetas from "resources/product-2.png";
-import sustratos from "resources/product-3.png";
-import mantenimiento from "resources/product-4.png";
-import fondoMain from "../../resources/fondo-main.png";
+import cactus from "resources/product-1.webp";
+import macetas from "resources/product-2.webp";
+import sustratos from "resources/product-3.webp";
+import mantenimiento from "resources/product-4.webp";
+import fondoMain from "../../resources/fondo-main.webp";
 
 export default function ProductsPage() {
   return (

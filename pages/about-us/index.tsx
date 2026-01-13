@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Layout from "components/layout";
 import styles from "./about-us.module.css";
-import succulentsDrawing from "../../resources/succulents drawing_02.png";
-import fondoSection1 from "../../resources/fondo-section-1.png";
+import succulentsDrawing from "../../resources/succulents drawing_02.webp";
+import fondoSection1 from "../../resources/fondo-section-1.webp";
 import misionPic from "../../resources/mision.webp";
 import visionPic from "../../resources/vision.webp";
 import CarouselComp from "components/carousel";

@@ -1,9 +1,9 @@
 import styles from "./footer.module.css";
 import Image from "next/image";
-import logoBuoni from "../../resources/logo-buoni.png";
-import facebook from "../../resources/facebook.png";
-import instagram from "../../resources/instagram.png";
-import whatsapp from "../../resources/whatsapp.png";
+import logoBuoni from "../../resources/logo-buoni.webp";
+import facebook from "../../resources/facebook.webp";
+import instagram from "../../resources/instagram.webp";
+import whatsapp from "../../resources/whatsapp.webp";
 
 export default function Footer() {
   return (

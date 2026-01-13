@@ -5,9 +5,8 @@ import { useParams } from "next/navigation";
 import { ProductCard } from "components/product-card";
 import Layout from "components/layout";
 import { searchProducts } from "../../lib/api";
-import fondoSection1 from "../../resources/fondo-section-1.png";
+import fondoSection1 from "../../resources/fondo-section-1.webp";
 import { Select } from "../../ui/select";
-import { PrimaryTitle } from "../../ui/texts";
 import Pagination from "../../components/pagination";
 
 export default function CategoryPage() {

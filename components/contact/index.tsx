@@ -1,6 +1,6 @@
 import styles from "./contact.module.css";
 import Image from "next/image";
-import fondoSection1 from "../../resources/fondo-section-1.png";
+import fondoSection1 from "../../resources/fondo-section-1.webp";
 
 export default function Contact() {
   return (
